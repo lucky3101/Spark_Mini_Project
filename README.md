@@ -7,8 +7,8 @@ For every individual in DS1 find the avarage salary. When their degree is ‘bac
 
 
 1. read DS1 and DS2 in Rdd.
-2.Join them on alteast first name. 
-3.Then filter the data which contain ‘bachelor’.NOTE ‘bachelor’ is in small caps
+2.Join them on alteast first name.
+3.Then filter the data which contain ‘bachelor’.NOTE ‘bachelor’ is in small caps.
 4.Convert the dataset into DF and find the avarge salary.
 5. Save the file in csv format
 
