@@ -12,6 +12,8 @@ sc =SparkContext(master="local", appName="Project2")
 
 root = ET.parse('/home/lucky/Downloads/DS1.xml').getroot()
 
+# print(ET.tostring(root, encoding='utf8').decode('utf8'))
+
 list1 = []
 list2 = []
 list3 = []
@@ -67,16 +69,10 @@ spark = SparkSession(sc)
 
 df = join.map(lambda (k, v): Row(k, v[0], v[1])).toDF()
 
-# df1 = df.withColumn("abc",df._3._3.cast('BigInt')).withColumn("_3._7", (df._3._4.cast('BigInt')))
-
-# df1.printSchema()
-
-# df.show()
-
 df.createTempView("temp")
 
 temp = spark.sql("select _1._1 as Name, _1._2 as Degree, _2._1 as Country, _2._2 as State, _3._1 as Hotel_1, _3._2 as Hotel_2, "
-                "cast (_3._3 as double) Salary_1, cast (_3._4 as double) Salary_2 from temp ")
+                "cast (_3._3 as int) as Salary_1, cast (_3._4 as int) as Salary_2 from temp ")
 
 temp.createTempView("resume")
 
@@ -88,7 +84,7 @@ res1 = spark.sql("select Name, ((Salary_1+Salary_2)/2) as Average_Salary from re
 
 res1.show()
 
-res1.write.option("header","true").csv("/home/lucky/Downloads/Output/Result1.csv")
+# res1.write.option("header","true").csv("/home/lucky/Downloads/Output/Result1.csv")
 
 res2 = spark.sql("select State, ((Salary_1+Salary_2)/2) as Average_Salary from resume where Country ='US'")
 
@@ -98,11 +94,11 @@ res21 = spark.sql("select State, Avg(Average_Salary) from res2 group by State")
 
 res21.show()
 
-res21.repartition(1).write.option("header","true").option("delimiter", "\t").csv("/home/lucky/Downloads/Output/Result2.tsv")
+# res21.coalesce(1).write.option("header","true").option("delimiter", "\t").csv("/home/lucky/Downloads/Output/Result2.tsv")
 
 res3 = spark.sql("select Name, min(Salary_1) as Min_Salary1, max(Salary_2) as Max_Salary2 from resume group by Name")
 
 res3.show()
 
-res3.repartition(1).write.option("header","true").option("delimiter", "\t").csv("/home/lucky/Downloads/Output/Result3.tsv")
+# res3.coalesce(1).write.option("header","true").option("delimiter", "\t").csv("/home/lucky/Downloads/Output/Result3.tsv")
 
