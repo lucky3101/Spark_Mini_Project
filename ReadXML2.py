@@ -29,12 +29,14 @@ for Salary1 in root.findall(".//Salary[1]"):
     c = Salary1.text
     y = c.split('USD')[0]
     x = re.sub(',', '', y)
+    x = x.strip()
     list3.append(x)
 
 for Salary2 in root.findall(".//Salary[2]"):
     d = Salary2.text
     y = d.split('USD')[0]
     x = re.sub(',', '', y)
+    x = x.strip()
     list4.append(x)
 
 for employer2 in root.findall(".//employer[2]"):
