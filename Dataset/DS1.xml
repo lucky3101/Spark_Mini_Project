@@ -1,0 +1,74 @@
+<ResDoc>
+    <resume>
+        <contact>
+            <name>
+                <fullname>raymond_Tschui</fullname>
+            </name>
+            <address>
+                <city>New York</city>
+                <state>NY</state>
+                <country>US</country>
+            </address>
+        </contact>
+        <education>
+            <school>
+                <degree>Bachelor's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <fullname>raymond_Tschui</fullname>
+	    </name>
+            <address>
+                <city>New York</city>
+                <state>NY</state>
+                <country>US</country>
+            </address>
+        </contact>
+        <education>
+            <school>
+                <degree>Master's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <fullname>vinchi_Bolt</fullname>
+            </name>
+            <address>
+                <city>Boston</city>
+                <state>Massachusetts</state>
+                <country>US</country>
+            </address>
+        </contact>
+        <education>
+            <school>
+                <degree>Bachelor's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <fullname>vinchi_Bolt</fullname>
+            </name>
+            <address>
+                <city>Boston</city>
+                <state>Massachusetts</state>
+                <country>CAN</country>
+            </address>
+        </contact>
+        <education>
+            <school>
+                <degree>Master's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+</ResDoc>

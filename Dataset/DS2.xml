@@ -1,0 +1,106 @@
+<ResDoc>
+    <resume>
+        <contact>
+            <name>
+                <givenname>Raymond</givenname>
+                <surname>Tschui</surname>
+            </name>
+        </contact>
+        <experience>
+            <job>
+                <title>Front Desk Assistant</title>
+                <employer>Hilton Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>50,000 USD</Salary>
+                <title>Front Desk Assistant </title>
+                <employer>Taj Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>100,000 USD</Salary>
+            </job>
+        </experience>
+        <education>
+            <school>
+                <degree>Bachelor's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <givenname>Raymond</givenname>
+                <surname>Tschui</surname>
+            </name>
+         </contact>
+        <experience>
+            <job>
+                <title>Front Desk Assistant</title>
+                <employer>Hilton Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>150,000 USD</Salary>
+                <title>Front Desk Assistant </title>
+                <employer>Taj Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>200,000 USD</Salary>
+            </job>
+        </experience>
+        <education>
+            <school>
+                <degree>Master's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <givenname>Vinchi</givenname>
+                <surname>Bolt</surname>
+            </name>
+        </contact>
+        <experience>
+            <job>
+                <title>Front Desk Assistant</title>
+                <employer>Hilton Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>50,000 USD</Salary>
+                <title>Front Desk Assistant </title>
+                <employer>Taj Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>100,000 USD</Salary>
+            </job>
+        </experience>
+        <education>
+            <school>
+                <degree>Bachelor's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+    <resume>
+        <contact>
+            <name>
+                <givenname>Vinchi</givenname>
+                <surname>Bolt</surname>
+            </name>
+        </contact>
+        <experience>
+            <job>
+                <title>Front Desk Assistant</title>
+                <employer>Hilton Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>120,000 USD</Salary>
+                <title>Front Desk Assistant </title>
+                <employer>Taj Hotel Corporation</employer>
+                <description>Working as a front desk Assistant</description>
+                <Salary>180,000 USD</Salary>
+            </job>
+        </experience>
+        <education>
+            <school>
+                <degree>Master's Degree</degree>
+                <major>Hotel administration</major>
+            </school>
+        </education>
+    </resume>
+</ResDoc>
